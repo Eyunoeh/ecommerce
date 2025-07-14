@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,4 +28,35 @@
 </script>
 
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Decoding Example</title>
+</head>
+<body>
+
+<div id="user-info"></div>
+<p>Reverse string: <span id="reverse_string"></span></p>
+
+<script>
+    function reverseString(s) {
+        let reversedStr = '';
+        for (let i = s.length - 1; i >= 0; i--) {
+            reversedStr += s[i];
+        }
+        return reversedStr;
+    }
+
+    const str = 'hello world';
+    document.getElementById('user-info').innerHTML = str;
+
+    //const reversedResult = reverseString(str);
+    document.getElementById('reverse_string').innerHTML = str.split('').reverse().join('');
+</script>
+
+</body>
+>>>>>>> 5384e4fb7c89b59937fbc4ba2a1b57a6b135628a
 </html>
