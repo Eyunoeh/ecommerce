@@ -3630,11 +3630,7 @@ details.collapse summary::-webkit-details-marker {
   margin: 0;
 }
 
-<<<<<<< HEAD
 ::-webkit-search-cancel-button,
-=======
-::-webkit-search-cancel-button,
->>>>>>> 5384e4fb7c89b59937fbc4ba2a1b57a6b135628a
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
   appearance: none;
@@ -4080,8 +4076,4 @@ body{
     --tw-text-opacity: 1;
     color: rgb(209 213 219 / var(--tw-text-opacity));
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5384e4fb7c89b59937fbc4ba2a1b57a6b135628a
